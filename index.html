@@ -11,13 +11,15 @@
 <body>
      <form class="formulario">
          <h1>Conversor de Moedas</h1>
-         <label class="metros" >metros :</label>
+         <label class="metros">metros :</label>
          <input type="number" name="metros" id="metros">
         <h3 class="centimetros">centimetros :</h3>
-        <input type="number" name="centimetros" id="centimetros" disabled>
-        <button class="converter">converter</button>
+        <input name="centimetros" id="centimetros" disabled>
+        <button class="converter" type="button" onclick="ConverterMetrosCentimetros()">converter</button>
     </form>
+    <script src="js/funcao.js"></script>
 </body>
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
